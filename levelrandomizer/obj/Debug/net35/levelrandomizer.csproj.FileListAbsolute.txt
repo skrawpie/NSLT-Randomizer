@@ -12,3 +12,4 @@ C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35
 C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelran.20AE58A2.Up2Date
 C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.dll
 C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.pdb
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\bin\Debug\net35\UnityEngine.PhysicsModule.dll

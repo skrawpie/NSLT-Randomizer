@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("levelrandomizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc697cbc9b1381775d169c5e20d9e1e290854c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2950a3c29547096be42334dbd3344366068c8699")]
 [assembly: System.Reflection.AssemblyProductAttribute("Level Randomizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("levelrandomizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

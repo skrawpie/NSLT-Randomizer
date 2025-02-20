@@ -38,10 +38,14 @@
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\libraries\UnityEngine.dll</HintPath>
+	  <Aliases>GlobalUnity</Aliases>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\libraries\UnityEngine.CoreModule.dll</HintPath>
-      <Aliases>UnityEngineCoreModule,%(Aliases)</Aliases>
+	  <Aliases>CoreUnity</Aliases>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\libraries\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

@@ -1,4 +1,7 @@
-﻿using System;
+﻿extern alias GlobalUnity;
+extern alias CoreUnity;
+
+using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +12,7 @@ using UnityEngine;
 using BepInEx.Logging;
 using Playful.SuperLucky.Gameplay.Player;
 using Playful.SuperLucky.Gameplay.Motors.Player;
+using Playful.Unity.Events;
 
 namespace levelrandomizer
 {
@@ -31,13 +35,19 @@ namespace levelrandomizer
             return false;
         }
     }
-    
-    // TODO figure out how to allow the palyer to still use spring boards, if possible.
-    [HarmonyPatch(typeof(PlayerController), nameof(PlayerController.Jump), new Type[] { typeof(Vector3), typeof(bool) })]
-    public class RemoveJump
+
+    [HarmonyPatch(typeof(PlayerController), nameof(PlayerController.JumpWithVelocity))]
+    public class RemoveJumpVelocity
     {
-        public static bool Prefix()
+        public static bool Prefix(PlayerController __instance)
         {
+            Collider contactCollider = __instance.GroundTracker.ContactCollider;
+            PlayerControllerAttemptingJumpEvent playerControllerAttemptingJumpEvent = new PlayerControllerAttemptingJumpEvent(__instance, PlayerJumpType.Normal);
+            if (contactCollider != null)
+            {
+                Playful.Events.LocalEventsComponentExtensions.SendEvent(contactCollider, playerControllerAttemptingJumpEvent);
+            }
+
             return false;
         }
     }
