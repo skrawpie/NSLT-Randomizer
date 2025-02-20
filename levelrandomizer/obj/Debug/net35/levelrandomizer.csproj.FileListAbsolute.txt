@@ -1,0 +1,14 @@
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\bin\Debug\net35\levelrandomizer.dll
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\bin\Debug\net35\levelrandomizer.pdb
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\bin\Debug\net35\Assembly-CSharp.dll
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\bin\Debug\net35\UnityEngine.CoreModule.dll
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.csproj.AssemblyReference.cache
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\MyPluginInfo.cs
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.AssemblyInfoInputs.cache
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.AssemblyInfo.cs
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.csproj.CoreCompileInputs.cache
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.sourcelink.json
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelran.20AE58A2.Up2Date
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.dll
+C:\Users\Travis\Documents\GitHub\NSLT-Randomizer\levelrandomizer\obj\Debug\net35\levelrandomizer.pdb
